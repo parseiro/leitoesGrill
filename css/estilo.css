@@ -15,8 +15,8 @@ img {
 
 #produtos {
   display: flex;
-  justify-content: space-around;
-  gap: 2px;
+  justify-content: space-between;
+  gap: 20px;
   flex-flow: row wrap;
 }
 
@@ -346,4 +346,12 @@ img {
 
 .pl-140 {
   padding-left: 140px;
+}
+
+.texto blockquote {
+  /* align-items: center; */
+  text-align: center;
+  text-justify: distribute-all-lines;
+  vertical-align: middle;
+  margin: auto;
 }
