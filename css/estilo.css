@@ -28,6 +28,11 @@ img {
   font-weight: bold;
   border: 1px solid #DBC8AC;
   flex: 0 0 200px;
+  box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
+}
+
+.imgcarne:hover {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
 }
 
 .imgcarne .imgcontainer {
