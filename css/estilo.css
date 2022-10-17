@@ -22,6 +22,7 @@ img {
 
 .imgcarne {
   height: 200px;
+  width: 200px;
   background-color: #EDDBC0;
   color: #B73E3E;
   font-weight: bold;
@@ -30,13 +31,16 @@ img {
 }
 
 .imgcarne .imgcontainer {
-  max-height: 180px;
+  height: 180px;
   overflow: hidden;
+  /*max-width: revert;*/
 }
 
 .imgcarne img {
+  /*max-width: initial;*/
   min-height: 200px;
-  min-width: 200px;
+  /*min-width: 200px;*/
+  object-fit: cover;
 }
 
 .col-4 {
@@ -117,7 +121,7 @@ img {
   flex-wrap: wrap;
 }
 
-.desenvolvedor {
+.subtitulo {
   font-weight: bold;
   font-size: 32px;
   line-height: 48px;
@@ -127,7 +131,7 @@ img {
   text-decoration: underline;
 }
 
-.localizacao {
+.contato {
   font-weight: 500;
 }
 
@@ -354,4 +358,8 @@ img {
   text-justify: distribute-all-lines;
   vertical-align: middle;
   margin: auto;
+}
+
+.object-fit-cover {
+  object-fit: cover;
 }
