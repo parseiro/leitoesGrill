@@ -21,13 +21,13 @@ img {
 }
 
 .imgcarne {
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
   background-color: #EDDBC0;
   color: #B73E3E;
   font-weight: bold;
   border: 1px solid #DBC8AC;
-  flex: 0 0 200px;
+  flex: 0 0 300px;
   box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
 }
 
@@ -36,14 +36,14 @@ img {
 }
 
 .imgcarne .imgcontainer {
-  height: 180px;
+  height: 280px;
   overflow: hidden;
   /*max-width: revert;*/
 }
 
 .imgcarne img {
   /*max-width: initial;*/
-  min-height: 200px;
+  min-height: 300px;
   /*min-width: 200px;*/
   object-fit: cover;
 }
