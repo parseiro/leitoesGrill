@@ -369,3 +369,7 @@ img {
     display: none;
   }
 }
+
+.align-items-center {
+  align-items: center;
+}
