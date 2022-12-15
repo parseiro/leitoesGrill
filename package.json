@@ -1,18 +1,19 @@
 {
-  "name": " ",
+  "name": "Leitões Grill",
   "version": "0.0.1",
   "type": "module",
   "description": "",
   "keywords": "",
   "license": "",
   "author": "",
+  "homepage": "https://parseiro.github.io/leitoesGrill/",
   "browserslist": [
     "defaults"
   ],
   "scripts": {
-    "build": "tsc && vite build --base=./",
+    "build": "tsc && vite build",
     "dev": "npx vite",
-    "deploy": "gh-pages -d dist",
+    "deploy": "tsc && vite build && gh-pages -d dist",
     "preview": "npx vite preview",
     "start": "npm run build && npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
